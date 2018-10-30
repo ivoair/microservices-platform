@@ -1,2 +1,5 @@
 # microservices-platform
-Plataforma con todas las infraestructuras necesarias
+---
+Plataforma para desplegar todas las infraestructuras requeridas en una arquitectura de microservicios con diferentes elementos intercambiables
+
+
