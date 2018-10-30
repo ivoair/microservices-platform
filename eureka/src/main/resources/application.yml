@@ -1,0 +1,17 @@
+server:
+  port: 6001
+  servlet:
+    context-path: /eureka
+  
+  
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    
+loggin:
+  level:
+    com:
+      netflix:
+        eureka: OFF
+        discovery: OFF
