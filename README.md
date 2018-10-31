@@ -1,7 +1,7 @@
 # microservices-platform
 Plataforma para desplegar todas las infraestructuras requeridas en una arquitectura de microservicios con diferentes elementos intercambiables
 
-## PROXY INVERSO
+## Proxy Inverso
 **Zuul**<br>
 TODO
 
@@ -13,7 +13,7 @@ Contexto /eureka
 **Zookeeper**<br>
 TODO
 
-## CONFIGURACIÓN
+## Configuración
 **Config Server**<br>
 Puerto 5001
 Contexto /configserver
