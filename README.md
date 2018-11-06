@@ -18,3 +18,8 @@ TODO
 Puerto 5001
 Contexto /configserver
 
+## Administración
+**Admin Server**<br>
+Puerto 7001
+Contexto /adminserver
+
