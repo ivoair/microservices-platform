@@ -8,6 +8,11 @@ spring:
           uri: https://github.com/ivoair/microservices-config
           skip-ssl-validation: true
           force-pull: true
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:7001
           
 server:
   port: 5001

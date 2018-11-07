@@ -6,6 +6,11 @@ spring:
       uri: http://localhost:5001/configserver
       fail-fast: false
       name: PlatformEureka
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:7001
 
 server:
   port: 6001

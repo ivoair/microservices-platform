@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.icarrolab.discovery</groupId>
-	<artifactId>eureka</artifactId>
+	<groupId>com.icarrolab.admin</groupId>
+	<artifactId>adminserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>eureka</name>
-	<description>Eureka Server</description>
+	<name>adminserver</name>
+	<description>Spring Boot Admin Server</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -21,29 +21,20 @@
 
 	<properties>
 		<spring-cloud.version>Greenwich.M1</spring-cloud.version>
+		<spring-boot-admin.version>2.1.0</spring-boot-admin.version>
 		<git-commmit-id-plugin.version>2.2.5</git-commmit-id-plugin.version>
-		<spring-boot-admin-starter-client.version>2.1.0</spring-boot-admin-starter-client.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<groupId>de.codecentric</groupId>
+			<artifactId>spring-boot-admin-starter-server</artifactId>
+			<version>${spring-boot-admin.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>de.codecentric</groupId>
-			<artifactId>spring-boot-admin-starter-client</artifactId>
-			<version>${spring-boot-admin-starter-client.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
 		<dependency>

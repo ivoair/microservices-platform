@@ -4,3 +4,11 @@ configserver/.mvn/
 eureka/mvnw
 eureka/mvnw.cmd
 eureka/.mvn/
+adminserver/.classpath
+adminserver/.project
+adminserver/.springBeans
+adminserver/mvnw
+adminserver/mvnw.cmd
+adminserver/.settings/org.eclipse.core.resources.prefs
+adminserver/.settings/
+adminserver/target/
